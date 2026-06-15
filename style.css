@@ -183,6 +183,35 @@ nav {
   font-size: 16px;
 }
 
+.section6 {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.s6 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.s6 .imga {
+  width: 300px;
+  height: 250px;
+  padding: 15px;
+  background-color: #EAF2F5;
+  border-radius: 15px;
+}
+.s6 .s6s {
+  width: 500px;
+  background-color: #EAF2F5;
+  height: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
 @media (max-width: 510px) {
   .poco {
     display: block;
@@ -235,5 +264,18 @@ nav {
   .boxcha {
     width: 250px;
     margin: auto;
+  }
+  .s6 {
+    flex-direction: column;
+  }
+  .section6 {
+    width: 100%;
+  }
+  .s6s {
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    flex-direction: column;
+    row-gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
