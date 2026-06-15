@@ -110,6 +110,30 @@ nav {
   width: 200px;
 }
 
+.section4 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.section4 h1 {
+  width: 450px;
+  text-align: center;
+  margin: auto;
+}
+.section4 p {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 13px;
+  color: grey;
+}
+.section4 img {
+  width: 800px;
+  margin-top: 30px;
+}
+
 @media (max-width: 510px) {
   .poco {
     display: block;
@@ -140,5 +164,18 @@ nav {
   .boxs div {
     width: 200px;
     margin: auto;
+  }
+  .section4 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .section4 h1 {
+    width: 250px;
+  }
+  .section4 p {
+    width: 250px;
+  }
+  .section4 img {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
