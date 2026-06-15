@@ -199,6 +199,35 @@ nav{
     }
 
 }
+.section7{
+    width: 100%;
+    background-color: #EAF2F5;
+    margin-top: 50px;
+    text-align: center;
+}
+ .sru{
+        width: 800px;
+        margin-top: 50px;
+    }
+.s7{
+    width: 100%;
+}
+.obshi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        display: flex;
+        align-items: center;
+        width: 400px;
+        gap: 20px;
+    }
+}
+.s7{
+    h1{
+        text-align: center;
+    }
+}
 @media (max-width:510px)
 {
     .poco{
@@ -268,5 +297,13 @@ nav{
         flex-direction: column;
         row-gap: 10px;
     }
-    
+    .obshi{
+        flex-direction: column;
+    }
+    .sru{
+        width: 100px;
+    }
+    .section7{
+        width: 100%;
+    }
 }
